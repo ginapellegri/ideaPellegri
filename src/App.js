@@ -1,15 +1,10 @@
-import circulo from './circulo.svg';
 import './App.css';
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={circulo} className="App-logo" alt="circulo" />
-        <p>
-          Hola Mundo
-        </p>
-      </header>
+      <NavBar/>
     </div>
   );
 }
