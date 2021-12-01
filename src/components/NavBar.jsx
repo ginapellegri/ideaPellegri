@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import logo from "../k-pop.jpg";
+import CartWidget from "./CartWidget";
 
 function NavBar(props) {
     return (
@@ -26,6 +27,7 @@ function NavBar(props) {
                 <Nav.Link href="#wiki">Wiki POP</Nav.Link>
             </Nav>
             </Navbar.Collapse>
+            <CartWidget />
         </Container>
         </Navbar>
     );
